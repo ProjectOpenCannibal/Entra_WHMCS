@@ -1,0 +1,35 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-addons",
+  "name": "Azure B2C SSO Loogin",
+  "license": "proprietary",
+  "category": "addon",
+  "description": {
+    "name": "Azure B2C SSO Login",
+    "tagline": "Replace WHMCS client login with Azure AD B2C authentication",
+    "long": "Fully replaces the default WHMCS client login with Azure AD B2C SSO, auto‐provisions clients in WHMCS, and syncs name/email from Azure claims.",
+    "features": [
+      "Full replacement of client login with Azure AD B2C",
+      "Just-in-time provisioning of WHMCS client accounts",
+      "Sync client name and email from Azure B2C",
+      "Optional PKCE support for enhanced OAuth2 security",
+      "Admin configurable via WHMCS addon settings"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https://yourwebsite.com",
+    "learn_more": "https://github.com/ProjectOpenCannibal/Entra_WHMCS/blob/main/README.md",
+    "email": "support@yourwebsite.com",
+    "support_url": "https://github.com/ProjectOpenCannibal/Entra_WHMCS/issues",
+    "docs_url": "https://github.com/ProjectOpenCannibal/Entra_WHMCS/wiki"
+  },
+  "authors": [
+    {
+      "name": "Roxxon",
+      "homepage": "https://roxxonglobal.com"
+    }
+  ]
+}
